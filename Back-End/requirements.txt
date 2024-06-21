@@ -1,0 +1,5 @@
+django
+djangorestframework
+environs
+pyjwt
+python-dotenv
