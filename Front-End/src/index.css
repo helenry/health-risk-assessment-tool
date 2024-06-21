@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* OVERRIDE */
+.MuiInputBase-root .MuiSvgIcon-root {
+  width: 0.75em !important;
+  height: 0.75em !important;
+}
+.MuiInputBase-input {
+  padding: 10px 14px !important;
+}
+.MuiAlert-root {
+  padding: 0 10px !important;
+}
+.Toastify__toast-container {
+  width: 375px !important;
+}
+.Toastify__toast--info {
+  background-color: rgb(229, 246, 253) !important;
+}
+.Toastify__toast--success {
+  background-color: rgb(237, 247, 237) !important;
+}
+.Toastify__toast--warning {
+  background-color: rgb(255, 244, 229) !important;
+}
+.Toastify__toast--error {
+  background-color: rgb(253, 237, 237) !important;
+}
+
+.root {
+  background-color: #e3e7ed;
+}
+
+.bar {
+  color: rgb(72, 72, 72);
+  background-color: white;
+}
+
+.user {
+  cursor: pointer;
+}
+
+.main {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.page {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.landing {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sign {
+  height: 75%;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 0px 10px 15px -3px rgba(114, 148, 249, 0.167);
+}
+
+.sign img {
+  height: 100%;
+  border-radius: 2%;
+}
+
+.fourohfour {
+  font-size: 10rem !important;
+}
+
+.menu {
+  right: 0;
+}
+
+.home {
+  color: #4d4d4d !important;
+}
+
+.anatomy {
+  width: 45%;
+}
+
+.img-disease {
+  max-width: 75%;
+}
+
+.disease {
+  min-width: max-content;
+  font-size: 1.25em !important;
+  font-weight: 400 !important;
+  left: -50px;
+}
+
+.stroke {
+  top: -260px;
+}
+
+.heartattack {
+  top: 80px;
+}
+
+.heartdiseases {
+  top: 125px;
+}
+
+.diabetesmellitus {
+  top: 220px;
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(166, 169, 249);
+}
+
+.line-stroke {
+  width: 380px;
+}
+
+.line-heartattack {
+  width: 430px;
+}
+
+.line-heartdiseases {
+  width: 420px;
+}
+
+.line-diabetesmellitus {
+  width: 420px;
+}
+
+.guide {
+  font-size: 0.9em;
+  color: #7e7e7e;
+}
+
+.warn {
+  font-size: 0.9em;
+}
+
+.sub-result {
+  font-size: 1.25em;
+}
+
+.icon-prediction {
+  transform: scale(4);
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.divider {
+  background-color: #646464;
+}
