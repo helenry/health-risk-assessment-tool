@@ -15,7 +15,7 @@ Created using Django and React
 ![image](https://github.com/helenry/health-risk-assessment-tool/assets/67642100/c47475f4-d16e-4425-b5d2-4d039352d3cf)
 3. Extract the zip file
 ![image](https://github.com/helenry/health-risk-assessment-tool/assets/67642100/ea67c690-e27f-4bca-bb27-eb456f87f4af)
-4. Open the file on your text editor
+4. Open the folder on your text editor
 ![image](https://github.com/helenry/health-risk-assessment-tool/assets/67642100/65a3144c-9c35-4237-b561-f08e00eb5596)
 5. On the Terminal menu, click New Terminal
 ![image](https://github.com/helenry/health-risk-assessment-tool/assets/67642100/300f4135-3a85-4735-b3c4-726cb10d6c5c)
