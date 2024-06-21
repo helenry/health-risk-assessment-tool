@@ -50,26 +50,28 @@ const Layout = ({ children }) => {
                 </Toolbar>
 
                 {
-                    !(location.pathname === '/user/data' && firstVisit) && expand && <Box className="position-relative">
+                    expand && <Box className="position-relative">
                         <Paper className="menu position-absolute">
                             <List>
-                                <ListItem disablePadding onClick={() => navigate('/user/data', { state: { first: false } })}>
-                                    <ListItemButton>
-                                        <ListItemIcon>
-                                            <Badge />
-                                        </ListItemIcon>
-                                        <ListItemText primary="Personal Data" />
-                                    </ListItemButton>
-                                </ListItem>
+                                {!(location.pathname === '/user/data' && firstVisit) && <>
+                                    <ListItem disablePadding onClick={() => navigate('/user/data', { state: { first: false } })}>
+                                        <ListItemButton>
+                                            <ListItemIcon>
+                                                <Badge />
+                                            </ListItemIcon>
+                                            <ListItemText primary="Personal Data" />
+                                        </ListItemButton>
+                                    </ListItem>
 
-                                <ListItem disablePadding onClick={() => navigate('/predict/history')}>
-                                    <ListItemButton>
-                                        <ListItemIcon>
-                                            <Dvr />
-                                        </ListItemIcon>
-                                        <ListItemText primary="Prediction History" />
-                                    </ListItemButton>
-                                </ListItem>
+                                    <ListItem disablePadding onClick={() => navigate('/predict/history')}>
+                                        <ListItemButton>
+                                            <ListItemIcon>
+                                                <Dvr />
+                                            </ListItemIcon>
+                                            <ListItemText primary="Prediction History" />
+                                        </ListItemButton>
+                                    </ListItem>
+                                </>}
 
                                 <ListItem disablePadding onClick={() => signOut()}>
                                     <ListItemButton>
