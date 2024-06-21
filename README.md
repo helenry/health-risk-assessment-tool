@@ -42,6 +42,6 @@ Created using Django and React
 
 #### Open the website on [http://localhost:3000/](http://localhost:3000/)
 
-Watch the website use guide [**here**](https://drive.google.com/file/d/1zDfojPIoei3NuO-XJ-HLXikHC4m8cbk8/view?usp=sharing) (high quality, no subtitle) or [**here**](https://drive.google.com/file/d/1DugkkeFMfFmbcJ-VUbsp3XxICq2D06jS/view?usp=sharing) (low quality, with subtitle).
+Watch the website use guide [**here**](https://drive.google.com/file/d/1DugkkeFMfFmbcJ-VUbsp3XxICq2D06jS/view?usp=sharing) (high quality, no subtitle) or [**here**](https://drive.google.com/file/d/1zDfojPIoei3NuO-XJ-HLXikHC4m8cbk8/view?usp=sharing) (low quality, with subtitle).
 
 **_If you have trouble running this website, please contact me immediately._**
