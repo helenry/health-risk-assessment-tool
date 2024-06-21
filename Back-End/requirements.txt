@@ -3,3 +3,4 @@ djangorestframework
 environs
 pyjwt
 python-dotenv
+django-cors-headers
