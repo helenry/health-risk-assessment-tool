@@ -5,7 +5,7 @@ Created using Django and React
 
 ### Requirements
 ---
-**You have to** have these tools installed on your computer to run this application: [**Node.js**](), [**npm**](), [**Python**](), [**pip**](), [**any text editor**]()
+**You have to** have these tools installed on your computer to run this application: [**Node.js**](https://nodejs.org/en/download/package-manager/current), [**npm**](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [**Python**](https://www.python.org/downloads/), [**pip**](https://pypi.org/project/pip/), **any text editor**
 
 ### Steps
 ---
