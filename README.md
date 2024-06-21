@@ -43,3 +43,5 @@ Created using Django and React
 #### Open the website on [http://localhost:3000/](http://localhost:3000/)
 
 Watch the website use guide [**here**]().
+
+**_If you have trouble running this website, please contact me immediately._**
